@@ -1,0 +1,776 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-05-28T02:00:38.101Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3148881991,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tc2()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "To validate the Account page by all valid credentials",
+        "description": "",
+        "id": "to-validate-the-new-account-creation-functinality-of-facebook;to-validate-the-account-page-by-all-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 589257884,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          },
+          {
+            "result": {
+              "duration": 306757,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tc4()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7904540078,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user has to launch the Url and click create new account button",
+            "match": {
+              "location": "FBaccCreation.userHasToLaunchTheUrlAndClickCreateNewAccountButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7898134,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user has to navigate to create new account page",
+            "match": {
+              "location": "FBaccCreation.userHasToNavigateToCreateNewAccountPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1631237960,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user has to enter the Firstname and secondname",
+            "match": {
+              "location": "FBaccCreation.userHasToEnterTheFirstnameAndSecondname(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "sriram",
+                  "adhavan",
+                  "hari",
+                  "arun",
+                  "kiran"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130584533,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user has to enter the moblie number or email id",
+            "match": {
+              "location": "FBaccCreation.userHasToEnterTheMoblieNumberOrEmailId(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "8765432109",
+                  "adghhawer@gmail.com",
+                  "Surya123@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Keshave@gmail.com",
+                  "9080566459",
+                  "8228877124"
+                ]
+              },
+              {
+                "cells": [
+                  "charlie@yahoo.com",
+                  "raghul@buingo.com",
+                  "7564321890"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69281056,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user has to click the gender icon",
+            "match": {
+              "location": "FBaccCreation.userHasToClickTheGenderIcon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105868369,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user has to click signup button",
+            "match": {
+              "location": "FBaccCreation.userHasToClickSignupButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 273949462,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user has to navigate to facebook homepage",
+            "match": {
+              "location": "FBaccCreation.userHasToNavigateToFacebookHomepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@second"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the new account creation functinality of facebook",
+    "description": "",
+    "id": "to-validate-the-new-account-creation-functinality-of-facebook",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/ACC-CreationFB.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-05-28T02:00:52.053Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1616079153,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tc1()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "To validate the login credentials",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-erp;to-validate-the-login-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 767730318,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          },
+          {
+            "result": {
+              "duration": 326523,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10709391777,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user has to launch the url",
+            "match": {
+              "location": "StepDefanation.userHasToLaunchTheUrl()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 815211871,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user has to enter the \"surya\" and \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"surya\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"12345\"",
+                  "offset": 34
+                }
+              ],
+              "location": "StepDefanation.userHasToEnterTheAnd(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43063037,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user has to navigate to homepage",
+            "match": {
+              "location": "StepDefanation.userHasToNavigateToHomepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@first"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-28T02:01:06.037Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1811035873,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tc1()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "To validate the login credentials",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-erp;to-validate-the-login-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 656101991,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          },
+          {
+            "result": {
+              "duration": 259241,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6227706720,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user has to launch the url",
+            "match": {
+              "location": "StepDefanation.userHasToLaunchTheUrl()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 641249941,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user has to enter the \"surya\" and \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"surya\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 34
+                }
+              ],
+              "location": "StepDefanation.userHasToEnterTheAnd(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9481714,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user has to navigate to homepage",
+            "match": {
+              "location": "StepDefanation.userHasToNavigateToHomepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@first"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-28T02:01:15.392Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1564070751,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tc1()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "To validate the login credentials",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-erp;to-validate-the-login-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 659935502,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          },
+          {
+            "result": {
+              "duration": 209446,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7650853673,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user has to launch the url",
+            "match": {
+              "location": "StepDefanation.userHasToLaunchTheUrl()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 576771702,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user has to enter the \"sylix\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sylix\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 34
+                }
+              ],
+              "location": "StepDefanation.userHasToEnterTheAnd(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9124401,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user has to navigate to homepage",
+            "match": {
+              "location": "StepDefanation.userHasToNavigateToHomepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@first"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-28T02:01:25.862Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1844226432,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tc1()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "To validate the login credentials",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-erp;to-validate-the-login-credentials;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 1001106529,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          },
+          {
+            "result": {
+              "duration": 224270,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5042708766,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user has to launch the url",
+            "match": {
+              "location": "StepDefanation.userHasToLaunchTheUrl()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4337473221,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user has to enter the \"sylix\" and \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sylix\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 34
+                }
+              ],
+              "location": "StepDefanation.userHasToEnterTheAnd(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7174386,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user has to navigate to homepage",
+            "match": {
+              "location": "StepDefanation.userHasToNavigateToHomepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@first"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-28T02:01:38.108Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1164687,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tc21()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "To validate the functionality of supplier managment",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-erp;to-validate-the-functionality-of-supplier-managment",
+        "after": [
+          {
+            "result": {
+              "duration": 39912,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          },
+          {
+            "result": {
+              "duration": 156609,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tc41()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3118505,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user has to click supplier Management",
+            "match": {
+              "location": "StepDefanation.userHasToClickSupplierManagement()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-4PEI7LP\u0027, ip: \u0027192.168.1.7\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.2\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:780)\r\n\tat in.steps.StepDefanation.userHasToEnterTheDateOfEnquiry(StepDefanation.java:52)\r\n\tat ✽.user has to enter the date of enquiry(file:src/test/resources/Features/ERP-login.feature:19)\r\n",
+              "duration": 2744466,
+              "status": "failed"
+            },
+            "line": 19,
+            "name": "user has to enter the date of enquiry",
+            "match": {
+              "location": "StepDefanation.userHasToEnterTheDateOfEnquiry(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "03.09.2029",
+                  "06.09.2029",
+                  "03.08.2029",
+                  "13.09.2029"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1839400,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "user has to enter the customer id",
+            "match": {
+              "location": "StepDefanation.userHasToEnterTheCustomerId(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "cus004400",
+                  "cus006600",
+                  "cus244400"
+                ]
+              },
+              {
+                "cells": [
+                  "cus004400",
+                  "cus006600",
+                  "cus244400"
+                ]
+              },
+              {
+                "cells": [
+                  "cus004400",
+                  "cus006600",
+                  "cus244400"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 776966,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "user has to enter the phone number",
+            "match": {
+              "location": "StepDefanation.userHasToEnterThePhoneNumber(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "phonenumber",
+                  "9884178072"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1976244,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "user has to enter the mobile number",
+            "match": {
+              "location": "StepDefanation.userHasToEnterTheMobileNumber(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "phonenumber",
+                  "contactnumber",
+                  "privateNumber"
+                ]
+              },
+              {
+                "cells": [
+                  "9884178072",
+                  "1234567788",
+                  "9876543210"
+                ]
+              },
+              {
+                "cells": [
+                  "9884568072",
+                  "89765432190",
+                  "876534278"
+                ]
+              },
+              {
+                "cells": [
+                  "9884568072",
+                  "89765432190",
+                  "876534278"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@third"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login Functionality of ERP",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-erp",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/ERP-login.feature",
+    "tags": [
+      {
+        "name": "@sanity",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

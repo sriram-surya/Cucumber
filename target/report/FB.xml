@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="60.008307">
+    <testcase classname="To validate the new account creation functinality of facebook" name="To validate the Account page by all valid credentials" time="13.943066">
+        <system-out><![CDATA[When user has to launch the Url and click create new account button.........passed
+And user has to navigate to create new account page.........................passed
+And user has to enter the Firstname and secondname..........................passed
+And user has to enter the moblie number or email id.........................passed
+And user has to click the gender icon.......................................passed
+And user has to click signup button.........................................passed
+Then user has to navigate to facebook homepage..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate the login Functionality of ERP" name="To validate the login credentials" time="13.981031">
+        <system-out><![CDATA[When user has to launch the url.............................................passed
+And user has to enter the "surya" and "12345"...............................passed
+Then user has to navigate to homepage.......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate the login Functionality of ERP" name="To validate the login credentials 2" time="9.353242">
+        <system-out><![CDATA[When user has to launch the url.............................................passed
+And user has to enter the "surya" and "admin"...............................passed
+Then user has to navigate to homepage.......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate the login Functionality of ERP" name="To validate the login credentials 3" time="10.46867">
+        <system-out><![CDATA[When user has to launch the url.............................................passed
+And user has to enter the "sylix" and "password"............................passed
+Then user has to navigate to homepage.......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate the login Functionality of ERP" name="To validate the login credentials 4" time="12.240935">
+        <system-out><![CDATA[When user has to launch the url.............................................passed
+And user has to enter the "sylix" and "admin"...............................passed
+Then user has to navigate to homepage.......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate the login Functionality of ERP" name="To validate the functionality of supplier managment" time="0.021363">
+        <failure message="org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-4PEI7LP', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'&#10;Driver info: driver.version: RemoteWebDriver&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:780)&#13;&#10;&#9;at in.steps.StepDefanation.userHasToEnterTheDateOfEnquiry(StepDefanation.java:52)&#13;&#10;&#9;at ✽.user has to enter the date of enquiry(file:src/test/resources/Features/ERP-login.feature:19)&#13;&#10;"><![CDATA[When user has to click supplier Management..................................passed
+And user has to enter the date of enquiry...................................failed
+And user has to enter the customer id.......................................skipped
+And user has to enter the phone number......................................skipped
+And user has to enter the mobile number.....................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-4PEI7LP', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:780)
+	at in.steps.StepDefanation.userHasToEnterTheDateOfEnquiry(StepDefanation.java:52)
+	at ✽.user has to enter the date of enquiry(file:src/test/resources/Features/ERP-login.feature:19)
+]]></failure>
+    </testcase>
+</testsuite>
